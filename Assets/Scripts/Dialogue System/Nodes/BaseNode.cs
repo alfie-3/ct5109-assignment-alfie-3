@@ -34,7 +34,7 @@ namespace Dialogue {
                         node = port.Connection.node as BaseNode;
                         break;
                     } else {
-                        Debug.LogError("Cannot find next avaible port: Please make sure that all ports are connected.");
+                        //Debug.LogError("Cannot find next avaible port: Please make sure that all ports are connected.");
                     }
 
                 }
@@ -44,7 +44,7 @@ namespace Dialogue {
                 //Have moved the graph.CurrentNode = node into this method to clear some reduant casting
                 GraphRunner.Current.Run(node);
             }else if(node is null) {
-                Debug.LogError("Cannot find next avaible node: Please make sure that all ports are connected.");
+                //Debug.LogError("Cannot find next avaible node: Please make sure that all ports are connected.");
             }
         }
 
