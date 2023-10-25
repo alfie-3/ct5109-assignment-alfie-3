@@ -32,11 +32,15 @@ namespace Dialogue {
         [SerializeField] private List<Image> images = new List<Image>();
         [SerializeField] private Image background;
 
-		// --- End
+        [Header("Audio")]
+        private AudioSource audioManager;
+        private AudioClip audioSound;
 
-		// --- Private Variables
+        // --- End
 
-		private const float TEXTSPEED = 5.0f;
+        // --- Private Variables
+
+        private const float TEXTSPEED = 5.0f;
 
         private List<GameObject> buttons = new List<GameObject>();
 
@@ -59,10 +63,7 @@ namespace Dialogue {
 
 			TapButton = GameObject.Find("TapButton").GetComponent<Button>();
 
-//#if UNITY_EDITOR
-			//characterNames = AssetDatabase.LoadAssetAtPath<CharacterNames>("Assets/Scripts/Dialogue System/ScriptableObjects/CharacterNames.asset");
 			characterNames = Resources.Load("ScriptableObjects/CharacterNames") as CharacterNames;
-//#endif
 		}
 
 		/// <summary>
@@ -193,7 +194,17 @@ namespace Dialogue {
 			return background;
 		}
 
-		public void ChangeColour(Color colour) {
+        public AudioSource PlaySound(AudioClip audioSound, AudioNode node) {
+
+			audioManager = GetComponent<AudioSource>();
+			audioManager.clip = audioSound;
+			audioManager.volume = node.volume;
+            audioManager.Play();
+
+            return audioManager;
+        }
+
+        public void ChangeColour(Color colour) {
 			fingerColour = colour;
 			fingerIcon.GetComponent<Image>().color = new Color(fingerColour.r, fingerColour.g, fingerColour.b, fingerColour.a);
 		}
@@ -208,7 +219,7 @@ namespace Dialogue {
 		public void SetMouseIconActive(bool active) {
 			if (fingerIcon) {
 				fingerObject.SetActive(active);
-				fingerIcon.enabled = active;
+                fingerIcon.enabled = active;
 			}
 		}
 
