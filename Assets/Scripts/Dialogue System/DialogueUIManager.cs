@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,6 +14,9 @@ namespace Dialogue {
 
         public Button TapButton { get; private set; }
 
+        public TMP_TextInfo Text => characterText.textInfo;
+        public TMP_Text CharacterText => characterText;
+
 		// --- End
 
 		// --- Unity Inspector Properties
@@ -23,8 +27,9 @@ namespace Dialogue {
 
 		[SerializeField] private GameObject buttonObject;
 		[SerializeField] private Transform buttonHolder;
+        [SerializeField] private GameObject mainPanel;
 
-		[Header("Finger Icon")]
+        [Header("Finger Icon")]
         [SerializeField] private Image fingerIcon;
         [SerializeField] private GameObject fingerObject;
 
@@ -70,7 +75,8 @@ namespace Dialogue {
 		/// Ends the Dialogue
 		/// </summary>
 		public void EndDialogue() {
-
+			mainPanel.SetActive(false);
+			ClearButton();
 		}
 
 		public void ClearImageAtIndex(int index) {

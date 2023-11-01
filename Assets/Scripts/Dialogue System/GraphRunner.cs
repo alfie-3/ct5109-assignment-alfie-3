@@ -31,7 +31,7 @@ namespace Dialogue {
             graph.CurrentNode = next;
             StartCoroutine(graph.CurrentNode.Run());
 
-            Debug.Log("Next Node: " + next.name);
+            //Debug.Log("Next Node: " + next.name);
         }
     }
 }

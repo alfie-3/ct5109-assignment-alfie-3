@@ -38,6 +38,31 @@ namespace Dialogue {
             DialogueUIManager.Instance.SetColour(nameColour, textColour);
         }
 
-        protected virtual void CallNextNode() { }
+        protected virtual void CallNextNode()
+        {
+        }
+
+        protected void CheckText()
+        {
+            string[] words = speech.Split(' ');
+
+            Mesh mesh = DialogueUIManager.Instance.CharacterText.mesh;
+
+            foreach (var word in words) {
+                if (word == "Monday")
+                {
+                    foreach (var item in DialogueUIManager.Instance.Text.characterInfo)
+                    {
+                        item.material.color = Color.blue;
+
+                        mesh.colors[0] = item.material.color;
+                    }
+                }
+
+                DialogueUIManager.Instance.CharacterText.ForceMeshUpdate();
+
+                //Debug.Log($"<{word}>" + " " + DialogueUIManager.Instance.CharacterText.mesh.colors[0].b);
+            }
+        }
     }
 }
