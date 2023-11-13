@@ -13,5 +13,10 @@ MonoBehaviour:
   m_Name: CharacterNames
   m_EditorClassIdentifier: 
   list:
-  - Cat
-  - Jess
+  - Xephyr
+  - Callum
+  - TJ
+  - Tracey
+  - '*'
+  - Relyt_Snivelb_556
+  - Library Assitant
