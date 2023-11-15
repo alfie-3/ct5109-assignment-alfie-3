@@ -48,7 +48,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: See you next stream "Xephyr".
+  speech: See you next stream, "Xephyr".
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -279,7 +279,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: Sorry... thats not me...
+  speech: Sorry... that's not me...
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -333,7 +333,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: Im so sorry... please dont be mad... *Sniffles*
+  speech: I'm so sorry... please don't be mad... *sniffles*
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -385,7 +385,7 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  background: {fileID: 2800000, guid: e027a1892caa2ff48acf90028aadd3dc, type: 3}
+  background: {fileID: 2800000, guid: 6d5d9be606ab9ec4796ff78ca8f19048, type: 3}
 --- !u!114 &-7756210903460620048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -434,7 +434,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 2
-  speech: It's just some stupid political thing.
+  speech: It's just some stupid political thing...
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -596,7 +596,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 3
-  speech: I didn't mean to impose, im actually a bisexual ally!
+  speech: I didn't mean to impose, I'm actually an ally!
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -650,7 +650,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: Ugh! everyone around here is so mean! *Sobs*
+  speech: Ugh! everyone around here is so mean! *sobs*
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -867,7 +867,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 1
-  speech: OKAY! Pop off!
+  speech: OKAYYYY! Pop off!
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -935,7 +935,7 @@ MonoBehaviour:
   m_Name: Characters
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 7864, y: 248}
+  position: {x: 7976, y: 248}
   ports:
     keys:
     - entry
@@ -959,7 +959,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 7577730922650784705}
+        node: {fileID: 7066586347959596169}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -984,7 +984,7 @@ MonoBehaviour:
   m_Name: Characters
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 13272, y: 248}
+  position: {x: 13368, y: 248}
   ports:
     keys:
     - entry
@@ -1008,7 +1008,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -1467155849276592223}
+        node: {fileID: -982221336120934690}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -1271,7 +1271,10 @@ MonoBehaviour:
       _node: {fileID: -5523394450277691083}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 823390284848485310}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -1485,7 +1488,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: Alright, well im banning you now! Sorry everyone.
+  speech: Alright, well I'm banning you now! Sorry everyone.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -1593,7 +1596,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: Oh shit, I never took my ID at the library...
+  speech: Oh shit, I never got my ID from the library...
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -1750,7 +1753,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 3
-  speech: Oh, I didn't realise you were non-binary, im so sorry.
+  speech: Oh, I didn't realise you were non-binary, I'm sorry.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -1915,7 +1918,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: Hi, im here to collect an ID? Names Xephyr Argile.
+  speech: Hi, I'm here to collect an ID? Name's Xephyr Argile.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -2122,7 +2125,8 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 4
-  speech: Callum and Xephyr sit down together at a desk inside the lecture room.
+  speech: Callum and Xephyr sit down together at their new desks inside the lecture
+    room.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -2165,7 +2169,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: exit
-        node: {fileID: -2441010904844236037}
+        node: {fileID: 713029030145339826}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -2176,7 +2180,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 1
-  speech: So what's your name?
+  speech: So, what's your name?
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -2230,7 +2234,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 3
-  speech: Hey, dont assume that im mean, I jus-
+  speech: Hey, dont assume that I'm mean, I jus-
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -2284,7 +2288,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: Sorry I have to go...
+  speech: Sorry, I have to go...
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -2338,7 +2342,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 1
-  speech: How about your back off?! Who even are you!
+  speech: How about you back off?! Who even are you!
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -2357,7 +2361,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 14200, y: 120}
+  position: {x: 14168, y: 120}
   ports:
     keys:
     - exit
@@ -2369,7 +2373,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -3282752790488342449}
+        node: {fileID: 713029030145339826}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -2733,7 +2737,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: What does it matter to you if im non-binary? You don't even know me.
+  speech: What does it matter to you if I'm non-binary? You don't even know me!
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -2787,7 +2791,8 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 2
-  speech: They is a plural pronoun anyway, how can you use it? Are you multiple people?
+  speech: '''They'' is a plural pronoun anyway, how can you use it? Are you multiple
+    people?'
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -2895,7 +2900,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 2
-  speech: Fine whatever.
+  speech: Fine, whatever.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -2950,53 +2955,6 @@ MonoBehaviour:
   imageLeft: {fileID: 2800000, guid: d8417f7960dd8cb4e8f7ce1c58ec7a76, type: 3}
   imageMiddle: {fileID: 0}
   imageRight: {fileID: 2800000, guid: 35065f3473485504db776cd098759ded, type: 3}
---- !u!114 &-1467155849276592223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54941d8bcd8a8754d957eb1de5dee9f6, type: 3}
-  m_Name: Background
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 13496, y: 264}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -1467155849276592223}
-      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -6712026345536829752}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -1467155849276592223}
-      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -982221336120934690}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
-  entry: 0
-  exit: 0
-  background: {fileID: 2800000, guid: 21a763395ff5b124ea807e52e30e86b7, type: 3}
 --- !u!114 &-1359333524116534499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3044,8 +3002,8 @@ MonoBehaviour:
   entry: 0
   ShowTextScrolling: 1
   textSpeed: 5
-  characterNameIndex: 6
-  speech: Sorry the only "Argile" we have here is Bill Argile.
+  characterNameIndex: 5
+  speech: Sorry the only "Argile" we have here is a 'Bill Argile'.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -3099,7 +3057,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: I dont go by that anymore...
+  speech: I don't go by that anymore...
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -3208,8 +3166,8 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: I love this game, the RPG elements are so good. Unlike Fallin 4! They should
-    have never made the protagonist voice acted...
+  speech: I love this game, the RPG elements are so good! Unlike 'Fallin 4'... They
+    should have never made the protagonist voice acted...
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -3252,7 +3210,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: exit
-        node: {fileID: -1467155849276592223}
+        node: {fileID: -6712026345536829752}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -3317,7 +3275,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: We are inclusive of all kinds of people on this channel, so make sure youre
+  speech: We are inclusive of all kinds of people on this channel, so make sure you're
     kind and pay attention to the pronoun tags!
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
@@ -3374,7 +3332,6 @@ MonoBehaviour:
   - {fileID: 1769568163149250290}
   - {fileID: 8893293681008602862}
   - {fileID: -6892612758617653663}
-  - {fileID: 7577730922650784705}
   - {fileID: 7066586347959596169}
   - {fileID: 5526333711655756171}
   - {fileID: -2434569783984304677}
@@ -3400,7 +3357,6 @@ MonoBehaviour:
   - {fileID: 8455459965032498978}
   - {fileID: 4673403021461937996}
   - {fileID: -6712026345536829752}
-  - {fileID: -1467155849276592223}
   - {fileID: 7443323245025375706}
   - {fileID: -2441010904844236037}
   - {fileID: -3282752790488342449}
@@ -3451,6 +3407,87 @@ MonoBehaviour:
   - {fileID: -6893756850230592917}
   - {fileID: -5523394450277691083}
   - {fileID: 1155945632899289434}
+  - {fileID: 713029030145339826}
+  - {fileID: 823390284848485310}
+--- !u!114 &713029030145339826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54941d8bcd8a8754d957eb1de5dee9f6, type: 3}
+  m_Name: Background
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 14384.684, y: 348.00467}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 713029030145339826}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -2441010904844236037}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 713029030145339826}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -3282752790488342449}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  exit: 0
+  background: {fileID: 2800000, guid: 041601679f091a942a140f908a568f18, type: 3}
+--- !u!114 &823390284848485310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb3fba5c8129a24a90f7f8cc1da66e6, type: 3}
+  m_Name: End
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 23544, y: 472}
+  ports:
+    keys:
+    - entry
+    values:
+    - _fieldName: entry
+      _node: {fileID: 823390284848485310}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -5523394450277691083}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
 --- !u!114 &903277165665724598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3498,8 +3535,8 @@ MonoBehaviour:
   entry: 0
   ShowTextScrolling: 1
   textSpeed: 5
-  characterNameIndex: 6
-  speech: Xephyr... Xephyr.....
+  characterNameIndex: 5
+  speech: '''Xephyr''... ''Xephyr''.....'
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -3553,7 +3590,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: ... Ouch that hurt, legendary difficulty is no joke!
+  speech: ... Ouch that hurt! Legendary difficulty is no joke!
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -3607,7 +3644,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: What's up Xeph-nation, we're going to be playing some "Fall-in Old Vegas"
+  speech: What's up Xeph-nation, we're going to be playing some 'Fall-in Old Vegas'
     today.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
@@ -3662,7 +3699,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: I'm happy with who I am, so can you either just accept that fact, or stay
+  speech: I'm happy with who I am, so you can either just accept that fact, or stay
     out of my business!
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
@@ -3857,7 +3894,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 4
-  speech: 'Glaring at Xephyr as he slinks out he mutters:'
+  speech: 'Glaring at Xephyr as he slinks out, he mutters:'
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -3909,7 +3946,7 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  background: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+  background: {fileID: 2800000, guid: a7c9e755d4e7f0a48962feba2058361e, type: 3}
 --- !u!114 &1786720272032196582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4012,7 +4049,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 4
-  speech: muttering and giggling can be heard accross the room.
+  speech: Muttering and giggling can be heard across the room.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -4120,7 +4157,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 2
-  speech: Tyler Jr. Blevins.
+  speech: Tyler Jr. Blevins...
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -4228,7 +4265,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 4
-  speech: This outburst from TJ riles up the class,
+  speech: This outburst from TJ riles up the class.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -4282,7 +4319,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 4
-  speech: And runs to the bathroom to take a moment alone.
+  speech: Xephyr then runs to the bathroom to take a moment alone.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -4390,7 +4427,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 4
-  speech: TJ picks up his belongings and storms through the class,
+  speech: TJ picks up his belongings and storms out of the class.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -4618,7 +4655,7 @@ MonoBehaviour:
   m_Name: Background
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3896, y: 328}
+  position: {x: 3928, y: 344}
   ports:
     keys:
     - entry
@@ -4651,7 +4688,7 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  background: {fileID: 2800000, guid: 2ed135f51aa54004bbf51c08fa71c173, type: 3}
+  background: {fileID: 2800000, guid: 6d67258b6076fdb4c85187776e9de70e, type: 3}
 --- !u!114 &4453494388057422459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4700,8 +4737,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 4
-  speech: Xephyr quickly leaves the room with the group of boys still giggling while
-    they go,
+  speech: Xephyr quickly leaves the room with the group of boys still giggling.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -4755,7 +4791,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 1
-  speech: That's such a cool name! My name's callum,
+  speech: That's such a cool name! My name's Callum!
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -4807,7 +4843,7 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  background: {fileID: 2800000, guid: 21a763395ff5b124ea807e52e30e86b7, type: 3}
+  background: {fileID: 2800000, guid: abc628437a3879342bbca2ca413bbc3e, type: 3}
 --- !u!114 &4691833519313421488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4856,7 +4892,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 2
-  speech: Hahaha, Bill?
+  speech: Hahaha, 'Bill'?
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -4910,7 +4946,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 2
-  speech: It's just some stupid political thing.
+  speech: It's just some stupid political thing...
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -5175,7 +5211,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: Thank you *Sniffles* I appreicate it.
+  speech: Thank you... *sniffles* I really appreciate it.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -5218,7 +5254,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: exit
-        node: {fileID: 7577730922650784705}
+        node: {fileID: -6892612758617653663}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -5548,7 +5584,8 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 2
-  speech: They is a plural pronoun anyway, how can you use it? Are you multiple people?
+  speech: '''They'' is a plural pronoun anyway, how can you use it? Are you multiple
+    people?'
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -5602,7 +5639,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: '*Sniffles* It''s okay.'
+  speech: '*sniffles* It''s okay.'
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -5656,60 +5693,13 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: Hey "Relyt" my pronouns are they/them, they're in the description, but
-    its okay if it's your first time here.
+  speech: Hey "Relyt" my pronouns are they/them. They're in the description, but
+    it's okay if it's your first time here.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
   exit: 0
   fingerColour: {r: 1, g: 1, b: 1, a: 0}
---- !u!114 &7577730922650784705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54941d8bcd8a8754d957eb1de5dee9f6, type: 3}
-  m_Name: Background
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 8088, y: 264}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 7577730922650784705}
-      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -6892612758617653663}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 7577730922650784705}
-      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 7066586347959596169}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
-  entry: 0
-  exit: 0
-  background: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!114 &7682255431525821003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5812,7 +5802,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 1
-  speech: I just moved back here from Brighton. So im trying to meet new people.
+  speech: I just moved back here from Brighton. So I'm trying to meet new people.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -5866,8 +5856,8 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 7
-  speech: Since i'm sure a lot of you don't know eachother yet, how about we go around
-    the room and introduce ourselves,
+  speech: Since I'm sure a lot of you don't know each other yet, how about we go
+    around the room and introduce ourselves,
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -6076,7 +6066,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: '*Sniffle Sniffle*'
+  speech: '*sniffle sniffle*'
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
