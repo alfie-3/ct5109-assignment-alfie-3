@@ -1273,7 +1273,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 823390284848485310}
+        node: {fileID: -994397820530710518}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -3009,6 +3009,60 @@ MonoBehaviour:
   FontSize: 45
   exit: 0
   fingerColour: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &-1346936057864832621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 23752, y: 536}
+  ports:
+    keys:
+    - exit
+    - entry
+    values:
+    - _fieldName: exit
+      _node: {fileID: -1346936057864832621}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 823390284848485310}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: -1346936057864832621}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -994397820530710518}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 4
+  speech: Please use the home button to go to the main menu.
+  nameColour: {r: 1, g: 1, b: 1, a: 0}
+  textColour: {r: 1, g: 1, b: 1, a: 0}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 1, g: 1, b: 1, a: 0}
 --- !u!114 &-1325192696634953177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3113,6 +3167,60 @@ MonoBehaviour:
   characterNameIndex: 4
   speech: TJ hucks a ball of phlegm from the back of his throat and spits it onto
     the ground.
+  nameColour: {r: 1, g: 1, b: 1, a: 0}
+  textColour: {r: 1, g: 1, b: 1, a: 0}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &-994397820530710518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 23528, y: 536}
+  ports:
+    keys:
+    - exit
+    - entry
+    values:
+    - _fieldName: exit
+      _node: {fileID: -994397820530710518}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -1346936057864832621}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: -994397820530710518}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -5523394450277691083}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 4
+  speech: End of act 1.
   nameColour: {r: 1, g: 1, b: 1, a: 0}
   textColour: {r: 1, g: 1, b: 1, a: 0}
   FontSize: 45
@@ -3409,6 +3517,8 @@ MonoBehaviour:
   - {fileID: 1155945632899289434}
   - {fileID: 713029030145339826}
   - {fileID: 823390284848485310}
+  - {fileID: -994397820530710518}
+  - {fileID: -1346936057864832621}
 --- !u!114 &713029030145339826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3469,7 +3579,7 @@ MonoBehaviour:
   m_Name: End
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 23544, y: 472}
+  position: {x: 23992, y: 472}
   ports:
     keys:
     - entry
@@ -3480,7 +3590,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: exit
-        node: {fileID: -5523394450277691083}
+        node: {fileID: -1346936057864832621}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
